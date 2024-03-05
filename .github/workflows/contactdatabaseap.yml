@@ -39,7 +39,7 @@ jobs:
     needs: build
     environment:
       name: 'production'
-      url: ${{ https://conatctdatabaseapp38787.azurewebsites.net }}
+      url: ${{ conatctdatabaseapp38787.azurewebsites.net }}
     permissions:
       id-token: write #This is required for requesting the JWT
  
